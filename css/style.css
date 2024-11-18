@@ -3,6 +3,12 @@ body {
     color: #333;
 }
 
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index:999;
+}
+
 /* Hero Section Styling */
 .hero {
     background-image: url('/Image/mpik1.jpeg');
@@ -14,11 +20,6 @@ body {
     color: white;
     text-align: center;
     position: relative;
-}
-.navbar {
-    position: sticky;
-    top: 0;
-    z-index: 999;
 }
 
 
